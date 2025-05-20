@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "public": true, // Must be boolean (true/false), not a string
+  "rewrites": [
+    {
+      "source": "/(.*)",
+      "destination": "/index.html"
+    }
+  ]
+}
