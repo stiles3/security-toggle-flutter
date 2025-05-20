@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "public": "build/web",
+  "public": true,
   "routes": [
     {
       "src": "/service_worker.js",

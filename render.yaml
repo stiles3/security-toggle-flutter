@@ -1,0 +1,6 @@
+services:
+  - type: web
+    name: security-toggle
+    env: static
+    buildCommand: flutter build web --release && mkdir -p deploy && cp -r build/web/* deploy/
+    staticPublishPath: "./deploy"
