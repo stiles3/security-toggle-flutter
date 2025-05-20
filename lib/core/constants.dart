@@ -10,7 +10,7 @@ class ApiEndpoints {
           : '127.0.0.1';
 
   static const _port = 5011;
-  static final _baseUrl = 'http://$_host:$_port/api/app';
+  static final _baseUrl = 'https://security-toggle-api.onrender.com/api/app';
 
   static String get toggle => '$_baseUrl/toggle';
   static String get status => '$_baseUrl/status';
