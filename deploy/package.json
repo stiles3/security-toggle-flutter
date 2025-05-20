@@ -1,0 +1,14 @@
+{
+  "name": "flutter-web-render",
+  "version": "1.0.0",
+  "description": "Flutter web app on Render",
+  "scripts": {
+    "start": "serve -s"
+  },
+  "dependencies": {
+    "serve": "^14.2.0"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  }
+}
